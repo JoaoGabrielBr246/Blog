@@ -1,0 +1,141 @@
+#servicos{
+	background:url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7C26F8);
+	padding-bottom: 20px;
+}
+.imagem{
+	float: left;
+	max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+}
+
+.espacamento{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+footer{
+	background: black;
+	padding: 50px 0px, 20px 0px;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #9bf0e1;
+	background: none;
+}
+
+.item-rede-social{
+	float: center;
+	padding:10px;
+}
+
+nav.navbar-transparente{
+ padding: 15px 0px;
+ background: rgba(0,0,0, 0.6);
+ border: none;
+}
+
+.navbar-brand{
+	padding: 0px;
+	padding: 5px 15px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+.mano{
+	float: right;
+}
+
+
+.background-fundo{
+	background: white;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    /*remover barra de navegação na horizontal*/
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+.capa{
+	display: table;
+	width: 100%;
+	background: url(https://media.istockphoto.com/vectors/movie-entertainment-camera-cinema-photo-wallpaper-concept-hipster-vector-id900404506);
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+.h2-roxo{
+color: #8B008B;
+padding-left: 10px;
+}
+
+
+.
+
+.bordas{
+	border-bottom: 5px solid #ff4169;
+}
+
+/*Media Queries*/
+/* xs < 768px */
+
+@media screen and (max-width: 767px){
+	h1{
+		font-size: 50px;
+	}
+	.btn-custom{
+		margin:10px 15px;
+	}
+}
+
+/* sm */
+
+@media screen and (min-width: 768px){
+	h1{
+		font-size: 70px;
+	}
+	.btn-custom{
+		margin:10px 15px;
+	}
+}
+
+/* md */
+
+@media screen and (min-width: 992px){
+	h1{
+		font-size: 80px;
+	}
+	.btn-custom{
+		margin:10px 15px;
+	}
+}
+
+/* lg */
+
+@media screen and (min-width: 1200px){
+	h1{
+		font-size: 100px;
+	}
+	.btn-custom{
+		margin:10px 15px;
+	}
+}
